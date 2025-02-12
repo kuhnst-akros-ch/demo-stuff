@@ -1,6 +1,6 @@
-package ch.akros.kuhnstakrosch.demostuff.spring.injectlist.otherservice;
+package ch.akros.kuhnstakrosch.demostuff.springinjectlist.otherservice;
 
-import ch.akros.kuhnstakrosch.demostuff.spring.injectlist.myservice.MyService;
+import ch.akros.kuhnstakrosch.demostuff.springinjectlist.myservice.MyService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

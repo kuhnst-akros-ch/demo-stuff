@@ -1,7 +1,7 @@
-package ch.akros.kuhnstakrosch.demostuff;
+package ch.akros.kuhnstakrosch.demostuff.springinjectlist;
 
-import ch.akros.kuhnstakrosch.demostuff.spring.injectlist.myservice.MyService;
-import ch.akros.kuhnstakrosch.demostuff.spring.injectlist.otherservice.OtherService;
+import ch.akros.kuhnstakrosch.demostuff.springinjectlist.myservice.MyService;
+import ch.akros.kuhnstakrosch.demostuff.springinjectlist.otherservice.OtherService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,13 +10,14 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
-class DemoStuffApplicationTests {
+class SpringInjectListApplicationTests {
 
   @Autowired
   private OtherService otherService;
 
   @Test
   void otherService() {
+    
     System.out.println("Start to say hello from all");
     otherService.sayHelloFromAll();
 

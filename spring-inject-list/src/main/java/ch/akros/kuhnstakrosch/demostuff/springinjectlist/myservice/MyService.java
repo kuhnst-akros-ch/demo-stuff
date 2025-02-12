@@ -1,4 +1,4 @@
-package ch.akros.kuhnstakrosch.demostuff.spring.injectlist.myservice;
+package ch.akros.kuhnstakrosch.demostuff.springinjectlist.myservice;
 
 import org.springframework.stereotype.Service;
 

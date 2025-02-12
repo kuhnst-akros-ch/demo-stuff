@@ -1,22 +1,22 @@
-package ch.akros.kuhnstakrosch.demostuff;
+package ch.akros.kuhnstakrosch.demostuff.springinjectlist;
 
-import ch.akros.kuhnstakrosch.demostuff.spring.injectlist.myservice.MyService;
-import ch.akros.kuhnstakrosch.demostuff.spring.injectlist.otherservice.OtherService;
+import ch.akros.kuhnstakrosch.demostuff.springinjectlist.myservice.MyService;
+import ch.akros.kuhnstakrosch.demostuff.springinjectlist.otherservice.OtherService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoStuffApplication implements CommandLineRunner {
+public class SpringInjectListApplication implements CommandLineRunner {
 
   private final OtherService otherService;
 
-  public DemoStuffApplication(OtherService otherService) {
+  public SpringInjectListApplication(OtherService otherService) {
     this.otherService = otherService;
   }
 
   public static void main(String[] args) {
-    SpringApplication.run(DemoStuffApplication.class, args);
+    SpringApplication.run(SpringInjectListApplication.class, args);
   }
 
   // run a demo
