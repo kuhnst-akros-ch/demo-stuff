@@ -27,6 +27,7 @@
     <!--    <mockito.version>5.8.0</mockito.version>-->
     <!-- PLUGIN VERSIONS -->
     <lombok-maven-plugin.version>1.18.20.0</lombok-maven-plugin.version>
+    <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
   </properties>
 
   <dependencyManagement>
